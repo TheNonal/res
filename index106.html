@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница 106</title>
+</head>
+<body>
+
+    <div class="parent">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child elem">3</div>
+        <div class="child">4</div>
+        <div class="child">5</div>
+    </div>
+
+    <div class="parent2">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child elem2">3</div>
+        <div class="child">4</div>
+        <div class="child">5</div>
+    </div>
+
+    <div class="parent3">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child elem3">3</div>
+        <div class="child">4</div>
+        <div class="child">5</div>
+    </div>
+
+    <style>
+        .parent	{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 900px;
+            height: 400px;
+            margin: 20px auto;
+            border: 1px solid red;
+        }
+        .child {
+            width: 100px;
+            height: 60px;
+            border: 1px solid green;
+        }
+        .elem {
+            align-self: flex-end;
+        }
+
+        .parent2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: stretch;
+        width: 900px;
+        height: 400px;
+        margin: 20px auto;
+        border: 1px solid red;
+        }
+
+        .elem2 {
+        align-self: center;
+        }
+
+        .parent3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 900px;
+        height: 400px;
+        margin: 20px auto;
+        border: 1px solid red;
+        }
+
+        .elem3 {
+        align-self: center;
+        }
+
+
+    </style>
+
+
+    <a href="index108.html">Страница 108</a>
+</body>
+</html>

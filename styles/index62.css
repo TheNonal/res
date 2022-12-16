@@ -1,0 +1,43 @@
+#parent {
+    width: 200px;
+    border: 1px solid red;
+}
+
+#child {
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    height: 100px;
+    border: 1px solid green;
+}
+
+#parent3 {
+    margin-top: 100px;
+    width: 200px;
+    border: 1px solid red;
+}
+
+#child3 {
+    margin-top: 50px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    height: 100px;
+    border: 1px solid green;
+}
+
+#parent2 {
+    margin-top: 100px;
+    width: 200px;
+    border: 1px solid red;
+}
+
+#child2 {
+    margin-top: 20px;
+    margin-right: 70px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    height: 100px;
+    border: 1px solid green;
+}

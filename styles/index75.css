@@ -1,0 +1,37 @@
+.parent {
+	padding: 10px 0;
+	border: 1px solid red;
+    text-align: center;
+}
+.child {
+	padding: 10px;
+	border: 1px solid green;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.parent2 {
+	padding: 10px 0;
+	border: 1px solid red;
+    text-align: right;
+    padding-right: 50px;
+}
+.child2 {
+	padding: 10px;
+	border: 1px solid green;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.parent3 {
+	padding: 10px 0;
+	border: 1px solid red;
+    text-align: right;
+}
+.child3 {
+	width: 100px;
+	padding: 10px;
+	border: 1px solid green;
+    display: inline-block;
+    text-align: center;
+}

@@ -1,0 +1,41 @@
+.child {
+    width: 120px;
+    height: 60px;
+    border: 1px solid green;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    height: 400px;
+    margin: 20px auto;
+    border: 1px solid red;
+}
+
+.parent2 {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    height: 200px;
+    margin: 20px auto;
+    border: 1px solid red;
+}
+
+.parent3 {
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+    height: 200px;
+    margin: 20px auto;
+    border: 1px solid red;
+}
+
+.parent4 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 900px;
+    height: 200px;
+    margin: 20px auto;
+    border: 1px solid red;
+}
